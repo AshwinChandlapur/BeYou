@@ -1,5 +1,6 @@
 package luck.materialdesign.tabsnavigator;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -9,10 +10,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.FrameLayout;
 
 import luck.materialdesign.tabsnavigator.customViews.ScrimInsetsFrameLayout;
 import luck.materialdesign.tabsnavigator.sliding.SlidingTabLayout;
-import luck.materialdesign.tabsnavigator.tabs.ViewPagerAdapter;
+import luck.materialdesign.tabsnavigator.tabs.all.Tabs_MainPage.MainPage_ViewPagerAdapter;
 import luck.materialdesign.tabsnavigator.utils.UtilsDevice;
 import luck.materialdesign.tabsnavigator.utils.UtilsMiscellaneous;
 
@@ -25,10 +27,10 @@ public class MainActivity extends ActionBarActivity {
 
     Toolbar toolbar;
     ViewPager pager;
-    ViewPagerAdapter adapter;
+    MainPage_ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[]={"Home","Events"};
-    int Numboftabs =2;
+    CharSequence Titles[]={"Lifestyle","Fashion","Beauty","Wedding","Relationships","Intimacy","Food","Work"};
+    int Numboftabs =8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,26 @@ public class MainActivity extends ActionBarActivity {
         init_slider();
 
         init_navigator();
+
+        FrameLayout beautyTips = (FrameLayout)findViewById(R.id.beautyTips);
+        beautyTips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,BeautyTips.class);
+                startActivity(intent);
+            }
+        });
+
+        FrameLayout askAway = (FrameLayout)findViewById(R.id.askAway);
+        askAway.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,AskAway.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
 
@@ -72,8 +94,8 @@ public class MainActivity extends ActionBarActivity {
         setSupportActionBar(toolbar);
 
 
-        // Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
-        adapter =  new ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
+        // Creating The MainPage_ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
+        adapter =  new MainPage_ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
 
         // Assigning ViewPager View and setting the adapter
         pager = (ViewPager) findViewById(R.id.pager);

@@ -36,12 +36,12 @@
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_circle_white_64dp.png",
-        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/drawable-xxhdpi/ic_account_circle_white_64dp.png"
-    },
-    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_help_white_24dp.png",
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/drawable-xxhdpi/ic_help_white_24dp.png"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_circle_white_64dp.png",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/drawable-xxhdpi/ic_account_circle_white_64dp.png"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png",

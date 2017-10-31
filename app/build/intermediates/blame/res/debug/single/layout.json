@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_hair.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_hair.xml"
+    },
+    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_action_menu_layout.xml"
     },
@@ -12,8 +16,28 @@
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_food.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_food.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/activity_beauty_tips.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/activity_beauty_tips.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_face.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_face.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_work.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_work.xml"
+    },
+    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_relationships.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_relationships.xml"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -60,6 +84,10 @@
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_action_mode_bar.xml"
     },
     {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_skin.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_skin.xml"
+    },
+    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_list_menu_item_layout.xml"
     },
@@ -76,16 +104,44 @@
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/tab_2.xml",
-        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/tab_2.xml"
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_answers.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_answers.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_beauty.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_beauty.xml"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_activity_chooser_view_include.xml"
     },
     {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_fashion.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_fashion.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_eyes.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_eyes.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_mind.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_mind.xml"
+    },
+    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/tool_bar.xml",
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/tool_bar.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_life_style.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_life_style.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_wedding.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_wedding.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_intimacy.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_intimacy.xml"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
@@ -96,8 +152,16 @@
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_ask_away.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_ask_away.xml"
+    },
+    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/my_text_view.xml",
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/my_text_view.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/activity_ask_away.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/activity_ask_away.xml"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -110,10 +174,6 @@
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/tab_1.xml",
-        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/tab_1.xml"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",

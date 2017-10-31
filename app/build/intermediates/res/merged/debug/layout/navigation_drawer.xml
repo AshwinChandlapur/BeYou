@@ -87,27 +87,28 @@
                 android:orientation="vertical">
 
                 <FrameLayout
-                    android:id="@+id/navigation_drawer_items_list_linearLayout_home"
-                    style="@style/NavDrawerRowLayout.Main">
+                    android:id="@+id/home"
+                    style="@style/NavDrawerRowLayout.Main"
+                    >
 
                     <luck.materialdesign.tabsnavigator.customViews.TintOnStateImageView
                         android:id="@+id/navigation_drawer_items_list_icon_home"
                         style="@style/NavDrawerRowItemIcon"
                         android:src="@drawable/ic_home_white_24dp"
                         tools:ignore="ContentDescription"
-                        tools:tint="@color/nav_drawer_item_icon_selected" />
+                        />
 
                     <TextView
                         android:id="@+id/navigation_drawer_items_textView_home"
                         style="@style/NavDrawerRowItemText"
-                        android:text="First Menu"
+                        android:text="Home"
                         tools:fontFamily="sans-serif-medium"
-                        tools:textColor="@color/nav_drawer_item_text_selected"/>
+                        />
 
                 </FrameLayout>
 
                 <FrameLayout
-                    android:id="@+id/navigation_drawer_items_list_linearLayout_explore"
+                    android:id="@+id/beautyTips"
                     style="@style/NavDrawerRowLayout.Main" >
 
                     <luck.materialdesign.tabsnavigator.customViews.TintOnStateImageView
@@ -119,7 +120,26 @@
                     <TextView
                         android:id="@+id/navigation_drawer_items_textView_explore"
                         style="@style/NavDrawerRowItemText"
-                        android:text="Second Menu"
+                        android:text="Beauty Tips"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/askAway"
+                    style="@style/NavDrawerRowLayout.Main" >
+
+                    <luck.materialdesign.tabsnavigator.customViews.TintOnStateImageView
+                        android:id="@+id/navigation_drawer_items_list_icon_explored"
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_explore_white_24dp"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/navigation_drawer_items_textView_explored"
+                        style="@style/NavDrawerRowItemText"
+                        android:text="Ask Away"
                         tools:fontFamily="sans-serif-medium"/>
 
                 </FrameLayout>

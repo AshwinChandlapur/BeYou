@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml
@@ -14,10 +14,11 @@ ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xm
 		INJECTED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:support-v4:21.0.3] /Users/ashwinchandlapur/.android/build-cache/c48c062597e60af1fe672696660e9bb4b7ae9c2c/output/AndroidManifest.xml:16:5-19
 MERGED from [de.hdodenhof:circleimageview:1.2.2] /Users/ashwinchandlapur/.android/build-cache/60e2bf80caf941aa2156344c25c16346efd05dca/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ashwinchandlapur/.android/build-cache/8639404295ca54fd22c362cfa88c8357c3b69a3e/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
@@ -31,7 +32,7 @@ ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xm
 	android:label
 		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:12:13-45
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:11:13-74
+		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:11:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
@@ -42,11 +43,20 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:16:27-74
+activity#luck.materialdesign.tabsnavigator.BeautyTips
+ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:19:9-48
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:19:19-45
+activity#luck.materialdesign.tabsnavigator.AskAway
+ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:20:9-54
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml:20:19-42
 uses-sdk
 INJECTED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:support-v4:21.0.3] /Users/ashwinchandlapur/.android/build-cache/c48c062597e60af1fe672696660e9bb4b7ae9c2c/output/AndroidManifest.xml:15:5-42
 MERGED from [de.hdodenhof:circleimageview:1.2.2] /Users/ashwinchandlapur/.android/build-cache/60e2bf80caf941aa2156344c25c16346efd05dca/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ashwinchandlapur/.android/build-cache/8639404295ca54fd22c362cfa88c8357c3b69a3e/output/AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		INJECTED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ashwinchandlapur/Desktop/BeYou/app/src/main/AndroidManifest.xml

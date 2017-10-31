@@ -3,8 +3,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
-        <item name="colorPrimary">@color/ColorPrimary</item>
-        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorPrimary">@color/header_bar</item>
+        <item name="colorPrimaryDark">@color/status_bar</item>
 
     </style>
 

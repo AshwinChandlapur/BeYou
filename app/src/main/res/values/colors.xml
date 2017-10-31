@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="ColorPrimary">#00897B</color>
-    <color name="ColorPrimaryDark">#00695C</color>
-    <color name="tabsScrollColor">#004D40</color>
+    <color name="ColorPrimary">#A094B7</color>
+    <color name="ColorPrimaryDark">#D1C4E9</color>
+    <color name="tabsScrollColor">#ffffff</color>
 
     <!-- App Main Palette -->
     <color name="primary">@color/green_500</color>
@@ -54,5 +54,8 @@
     <!-- Black and White -->
     <color name="white">#FFFFFF</color>
     <color name="black_alpha_50">#80000000</color>
+
+    <color name="header_bar">#D1C4E9</color>
+    <color name="status_bar">#A094B7</color>
 
 </resources>
