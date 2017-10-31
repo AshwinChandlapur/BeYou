@@ -1,0 +1,4 @@
+#Tue Oct 31 19:58:04 IST 2017
+base.0=/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+renamed.0=classes.dex
+file.0=/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
