@@ -12,6 +12,7 @@ import retrofit2.http.GET;
 
 public interface RequestInterface {
 
-    @GET("/AshwinChandlapur/ImgLoader/gh-pages/hackerss.json")
+    @GET("/AshwinChandlapur/BeYouJson/master/Lifestyle/lifestyle.json")
     Call<JSONResponse> getJSON();
+
 }

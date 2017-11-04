@@ -20,8 +20,16 @@
         "source": "/Users/ashwinchandlapur/.android/build-cache/8506ba327077a053b278050b47b595c08eb521c6/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/card_rows.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/card_rows.xml"
+    },
+    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/ashwinchandlapur/.android/build-cache/8506ba327077a053b278050b47b595c08eb521c6/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_news_display.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_news_display.xml"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_face.xml",

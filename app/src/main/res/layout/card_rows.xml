@@ -1,0 +1,58 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_rows"
+    card_view:cardUseCompatPadding="true"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardElevation="5dp"
+    card_view:cardCornerRadius="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/girl0"
+            android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAG"
+                android:id="@+id/tag"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom"
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"
+                />
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:gravity="center"
+            android:text="Title"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
