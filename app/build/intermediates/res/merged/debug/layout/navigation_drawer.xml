@@ -96,14 +96,14 @@
                         style="@style/NavDrawerRowItemIcon"
                         android:src="@drawable/ic_home_white_24dp"
                         tools:ignore="ContentDescription"
-                        />
+                        tools:tint="@color/nav_drawer_item_icon_selected" />
 
                     <TextView
                         android:id="@+id/navigation_drawer_items_textView_home"
                         style="@style/NavDrawerRowItemText"
                         android:text="Home"
                         tools:fontFamily="sans-serif-medium"
-                        />
+                        tools:textColor="@color/nav_drawer_item_text_selected"/>
 
                 </FrameLayout>
 

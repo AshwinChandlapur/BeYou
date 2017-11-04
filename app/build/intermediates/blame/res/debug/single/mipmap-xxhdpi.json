@@ -2,5 +2,9 @@
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_search.png",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/mipmap-xxhdpi/ic_search.png"
     }
 ]

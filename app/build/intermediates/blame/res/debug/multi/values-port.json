@@ -11,13 +11,13 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/Users/ashwinchandlapur/.android/build-cache/1ea585eea0cbf8acb30a395d7efcabe3d97b7cf7/output/res/values-port/values.xml",
+                    "file": "/Users/ashwinchandlapur/.android/build-cache/8506ba327077a053b278050b47b595c08eb521c6/output/res/values-port/values-port.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 55,
                         "endColumn": 55,
-                        "endOffset": 107
+                        "endOffset": 106
                     }
                 }
             }
