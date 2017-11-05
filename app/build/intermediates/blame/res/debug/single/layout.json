@@ -32,6 +32,10 @@
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_news_display.xml"
     },
     {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/card_rowbeauty.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/card_rowbeauty.xml"
+    },
+    {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_face.xml",
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_face.xml"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_eyes.xml",
         "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_eyes.xml"
+    },
+    {
+        "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_contents_display.xml",
+        "source": "/Users/ashwinchandlapur/Desktop/BeYou/app/src/main/res/layout/fragment_contents_display.xml"
     },
     {
         "merged": "/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/merged/debug/layout/fragment_life_style.xml",

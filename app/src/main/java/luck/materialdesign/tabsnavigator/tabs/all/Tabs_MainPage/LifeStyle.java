@@ -19,10 +19,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import luck.materialdesign.tabsnavigator.R;
-import luck.materialdesign.tabsnavigator.retrofit.API;
-import luck.materialdesign.tabsnavigator.retrofit.DataAdapter;
-import luck.materialdesign.tabsnavigator.retrofit.JSONResponse;
-import luck.materialdesign.tabsnavigator.retrofit.RequestInterface;
+import luck.materialdesign.tabsnavigator.retrofit_MainPage.API_MP;
+import luck.materialdesign.tabsnavigator.retrofit_MainPage.DataAdapter_MP;
+import luck.materialdesign.tabsnavigator.retrofit_MainPage.JSONResponse_MP;
+import luck.materialdesign.tabsnavigator.retrofit_MainPage.RequestInterface_MP;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -37,8 +37,8 @@ public class LifeStyle extends Fragment {
 
     public static final String BASE_URL = "https://raw.githubusercontent.com";
     private RecyclerView mRecyclerView;
-    private ArrayList<API> mArrayList;
-    private DataAdapter mAdapter;
+    private ArrayList<API_MP> mArrayList;
+    private DataAdapter_MP mAdapter;
 
     View rootView;
 
@@ -72,21 +72,21 @@ public class LifeStyle extends Fragment {
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        RequestInterface request = retrofit.create(RequestInterface.class);
-        Call<JSONResponse> call = request.getJSON();
-        call.enqueue(new Callback<JSONResponse>() {
+        RequestInterface_MP request = retrofit.create(RequestInterface_MP.class);
+        Call<JSONResponse_MP> call = request.getLifeStyle();
+        call.enqueue(new Callback<JSONResponse_MP>() {
             @Override
-            public void onResponse(Call<JSONResponse> call, Response<JSONResponse> response) {
+            public void onResponse(Call<JSONResponse_MP> call, Response<JSONResponse_MP> response) {
 
-                JSONResponse jsonResponse = response.body();
+                JSONResponse_MP jsonResponse = response.body();
                 Log.d("JSON Response is", "onResponse: "+jsonResponse);
                 mArrayList = new ArrayList<>(Arrays.asList(jsonResponse.getAndroid()));
-                mAdapter = new DataAdapter(mArrayList);
+                mAdapter = new DataAdapter_MP(mArrayList);
                 mRecyclerView.setAdapter(mAdapter);
             }
 
             @Override
-            public void onFailure(Call<JSONResponse> call, Throwable t) {
+            public void onFailure(Call<JSONResponse_MP> call, Throwable t) {
                 Log.d("Error",t.getMessage());
             }
         });
