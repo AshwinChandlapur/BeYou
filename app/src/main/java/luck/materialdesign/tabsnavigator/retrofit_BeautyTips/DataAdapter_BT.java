@@ -28,10 +28,11 @@ public class DataAdapter_BT extends RecyclerView.Adapter<DataAdapter_BT.ViewHold
 
 
 
-    String title;
+    String name;
     String tag;
     String imgUrl;
     String content;
+    String videoUrl;
     Bundle bundle;
 
     public DataAdapter_BT(ArrayList<API_BT> arrayList) {
@@ -49,11 +50,11 @@ public class DataAdapter_BT extends RecyclerView.Adapter<DataAdapter_BT.ViewHold
     public void onBindViewHolder(final DataAdapter_BT.ViewHolder viewHolder, final int i) {
 
 
-        viewHolder.title.setText(mFilteredList.get(i).getTitle());
+        viewHolder.title.setText(mFilteredList.get(i).getName());
 //        viewHolder.tag.setText(mFilteredList.get(i).getTag());
         viewHolder.content.setText(mFilteredList.get(i).getContent());
         Glide.with(viewHolder.imageView.getContext())
-                .load(mFilteredList.get(i).getImgUrl())
+                .load(mFilteredList.get(i).getImg())
                 .centerCrop()
                 .into(viewHolder.imageView);
 
@@ -64,7 +65,7 @@ public class DataAdapter_BT extends RecyclerView.Adapter<DataAdapter_BT.ViewHold
 //                Toast.makeText(viewHolder.feedimage.getContext(), "inside viewholder position = " + i, Toast.LENGTH_SHORT).show();
 
 
-                title = mFilteredList.get(i).getTitle();
+                name = mFilteredList.get(i).getName();
                 content = mFilteredList.get(i).getContent();
                 tag = mFilteredList.get(i).getTag();
 
@@ -106,7 +107,7 @@ public class DataAdapter_BT extends RecyclerView.Adapter<DataAdapter_BT.ViewHold
 
                     for (API_BT API : mArrayList) {
 
-                        if (API.getTitle().toLowerCase().contains(charString)||API.getTitle().contains(charString)) {
+                        if (API.getName().toLowerCase().contains(charString)||API.getName().contains(charString)) {
                             filteredList.add(API);
                         }
                     }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Nov 05 15:37:27 IST 2017
+#Sun Nov 05 18:47:22 IST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/ashwinchandlapur/Desktop/BeYou/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_small_material.xml

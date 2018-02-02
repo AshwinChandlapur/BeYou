@@ -62,10 +62,14 @@ public class MainPage_ViewPagerAdapter extends FragmentStatePagerAdapter {
             Food food = new Food();
             return food;
         }
-        else          // As we are having 2 tabs if the position is now 0 it must be 1 so we are returning second tab
+        else if (position == 7)      // As we are having 2 tabs if the position is now 0 it must be 1 so we are returning second tab
         {
             Work work = new Work();
             return work;
+        }else
+        {
+            NewsDisplayFragment newsDisplayFragment = new NewsDisplayFragment();
+            return  newsDisplayFragment;
         }
 
 

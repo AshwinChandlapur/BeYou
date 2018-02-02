@@ -26,7 +26,7 @@ public class BeautyTips extends ActionBarActivity {
     ViewPager pager;
     BeautyTips_ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[]={"Face","Eyes","Hair","Mind","Skin"};
+    CharSequence Titles[]={"Face","Eyes","Hair","Mind","Skin","X"};
     int Numboftabs =5;
 
     @Override

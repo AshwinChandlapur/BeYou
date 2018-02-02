@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import luck.materialdesign.tabsnavigator.R;
 
@@ -16,6 +18,8 @@ import luck.materialdesign.tabsnavigator.R;
 public class AskAwayFragment extends Fragment {
 
 
+    public WebView webView;
+
     public AskAwayFragment() {
         // Required empty public constructor
     }
@@ -25,7 +29,28 @@ public class AskAwayFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ask_away, container, false);
+        View view = inflater.inflate(R.layout.fragment_ask_away, container, false);
+
+        String url = "https://www.google.com";
+        webView = (WebView) view.findViewById(R.id.webview_askaway);
+        webView.setWebViewClient(new MyBrowser());
+
+        webView.getSettings().setLoadsImagesAutomatically(true);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+        webView.loadUrl(url);
+
+        return view;
     }
+
+    private class MyBrowser extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            return true;
+        }
+    }
+
+
 
 }

@@ -4,16 +4,18 @@ public class API_BT {
 
 
 
-    private String title;
-    private String imgUrl;
+    private String name;
+    private String img;
     private String content;
     private String tag;
-    public String getTitle() {
-        return title;
+    private String videoUrl;
+
+    public String getName() {
+        return name;
     }
 
-    public String getImgUrl() {
-        return imgUrl;
+    public String getImg() {
+        return img;
     }
 
     public String getContent() {
@@ -23,6 +25,8 @@ public class API_BT {
     public String getTag() {
         return tag;
     }
+
+    public String getVideoUrl() {return videoUrl;}
 
 
 
